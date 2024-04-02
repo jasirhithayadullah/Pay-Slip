@@ -1,0 +1,79 @@
+.A{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+
+    border: 2px solid rgb(241, 24, 50);
+    padding: 10px;
+    background-color: aqua;
+    width: 800px;
+    margin-left:300px;
+    margin-top: 20px;
+}
+#btnn{
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+table{
+    border: 2px solid rgb(225, 18, 128);
+    margin-left: 300px;
+    background-color: aliceblue;
+}
+th,td{
+    border: 2px solid rgb(225, 18, 128);
+}
+h1{
+    color: darkorange;
+    background-color: grey;
+    text-align: center;
+    width: 250px;
+    padding: 5px;
+    margin-left: 580px;
+    margin-top: 120px;
+    
+}
+#basicpay{
+    margin-left: 48px;
+}
+#dailyallowance{
+    margin-left: 3px;
+}
+#profund{
+    margin-left: 11px;
+}
+#netsalary{
+    margin-left: 42px;
+}
+#houserent{
+    margin-left: 3px;
+}
+#travelexpense{
+    margin-left: 50px;
+}
+#grosssalary{
+    margin-left: 68px;
+}
+.p{
+    padding: 5px;
+}
+#btnn:hover{
+    background-color: crimson;
+    width: 150px;
+    font-size: 20px;
+}
+label:hover{
+    color: rgb(124, 16, 239);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1:hover{
+    color: rgb(12, 231, 45);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/03/62/16/00/240_F_362160042_S2cxVAlSrI8spH1MXfmjQd98ZmseGR0Y.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
